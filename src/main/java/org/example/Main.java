@@ -1,5 +1,16 @@
 package org.example;
 
+import pattern.behavioral.chainOfResponsibility.DoChainOfResponsibility;
+import pattern.behavioral.command.DoCommand;
+import pattern.behavioral.interpreter.DoInterpreter;
+import pattern.behavioral.iterator.DoIterator;
+import pattern.behavioral.mediator.DoMediator;
+import pattern.behavioral.memento.DoMemento;
+import pattern.behavioral.observer.DoObserver;
+import pattern.behavioral.state.DoState;
+import pattern.behavioral.strategy.DoStrategy;
+import pattern.behavioral.templateMethod.DoTemplateMethod;
+import pattern.behavioral.visitor.DoVisitor;
 import pattern.creational.abstractFactory.DoAbstractFactory;
 import pattern.creational.builder.DoBuild;
 import pattern.creational.factory.DoFactory;
@@ -30,19 +41,54 @@ public class Main {
 //        doSingleton.run();
 
         /*구조 디자인 패턴*/
-        DoAdaptor doAdaptor = new DoAdaptor();
-        doAdaptor.run();
+//        DoAdaptor doAdaptor = new DoAdaptor();
+//        doAdaptor.run();
+//
+//        DoBridge doBridge = new DoBridge();
+//        doBridge.run();
+//
+//        DoDecorator doDecorator = new DoDecorator();
+//        doDecorator.run();
+//
+//        DoFacade doFacade = new DoFacade();
+//        doFacade.run();
+//
+//        DoProxy doProxy = new DoProxy();
+//        doProxy.run();
 
-        DoBridge doBridge = new DoBridge();
-        doBridge.run();
+        /*행동 디자인 패턴*/
+//        DoChainOfResponsibility doChainOfResponsibility = new DoChainOfResponsibility();
+//        doChainOfResponsibility.run();
+//
+//        DoCommand doCommand = new DoCommand();
+//        doCommand.run();
+//
+//        DoInterpreter doInterpreter = new DoInterpreter();
+//        doInterpreter.run();
+//
+//        DoIterator doIterator = new DoIterator();
+//        doIterator.run();
+//
+        DoMediator doMediator = new DoMediator();
+        doMediator.run();
+//
+//        DoMemento doMemento = new DoMemento();
+//        doMemento.run();
+//
+//        DoObserver doObserver = new DoObserver();
+//        doObserver.run();
+//
+//        DoState doState = new DoState();
+//        doState.run();
+//
+//        DoStrategy doStrategy = new DoStrategy();
+//        doStrategy.run();
+//
+//        DoVisitor doVisitor = new DoVisitor();
+//        doVisitor.run();
+//
+//        DoTemplateMethod doTemplateMethod = new DoTemplateMethod();
+//        doTemplateMethod.run();
 
-        DoDecorator doDecorator = new DoDecorator();
-        doDecorator.run();
-
-        DoFacade doFacade = new DoFacade();
-        doFacade.run();
-
-        DoProxy doProxy = new DoProxy();
-        doProxy.run();
     }
 }
